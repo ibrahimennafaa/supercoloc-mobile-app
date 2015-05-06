@@ -1,0 +1,14 @@
+<Page loaded="onPageLoaded">
+    <GridLayout rows="auto, *">
+        
+        <Button text="Refresh" tap="refresh" row="0"></Button>
+
+        <ListView items="{{ events }}" loadMoreItems="more" row="1">
+            <ListView.itemTemplate>
+                <Label text="{{ type }}" />
+                <Label text="{{ date }}" />
+            </ListView.itemTemplate>
+        </ListView>
+
+    </GridLayout>
+</Page>

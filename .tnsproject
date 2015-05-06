@@ -1,0 +1,9 @@
+{
+	"id": "org.nativescript.supercoloc",
+	"tns-ios": {
+		"version": "0.10.0"
+	},
+	"tns-android": {
+		"version": "0.10.0"
+	}
+}
